@@ -1,0 +1,119 @@
+/* UNIVERSAL STYLES HERE (like the header )*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2e8cf;
+    font-family: 'Questa', serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    background: #495867;
+    gap: 20px;
+}
+/* wrapper logo image */
+.logo img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    color: #f2e8cf;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.content {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1000px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-block h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    color: #495867;
+}
+
+.text-block p {
+    color: #495867;
+    line-height: 1.6;
+}
+
+
+
+/* ADD ABOUT PAGE CONTENT HERE ONLY */
+
+#about-content .image-left {
+    grid-column: 1;
+}
+
+#about-content .image-right {
+    grid-column: 2;
+}
+
+#subscribe-form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#subscribe-form h2 {
+    font-family: 'Kaushan Script';
+    font-size: 1.8rem;
+}
+
+#subscribe-form input,
+#subscribe-form select {
+    padding: 10px;
+    border: 2px solid #ce796b;
+    border-radius: 8px;
+}
+
+#subscribe-form button {
+    margin-top: 10px;
+    padding: 12px;
+    background: #ce796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* RECIPES PAGE CONTENT HERE */
