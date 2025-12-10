@@ -19,7 +19,7 @@ body {
 }
 /* wrapper logo image */
 .logo img {
-    height: 75px;
+    height: 100px;
     width: auto;
     display: block;
 }
@@ -33,7 +33,7 @@ body {
     color: #f2e8cf;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2.8rem;
 }
 
 
@@ -62,13 +62,13 @@ body {
 
 .text-block h1 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 5 rem;
+    font-size: 5rem;
     color: #495867;
 }
 
 .text-block p {
     color: #495867;
-    font-size: 3.5 rem
+    font-size: 3.5rem
     line-height: 1.6;
 }
 
