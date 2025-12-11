@@ -58,6 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    grid-column: 1;
 }
 
 .text-block h1 {
@@ -68,13 +69,14 @@ body {
 
 .text-block p {
     color: #495867;
-    font-size: 3.5rem
+    font-size: 3.5rem;
     line-height: 1.6;
 }
 
 
 
 /* ADD ABOUT PAGE CONTENT HERE ONLY */
+
 
 #about-content .image-left {
     grid-column: 1;
